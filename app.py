@@ -4,6 +4,7 @@ from flask import Flask, request, jsonify
 import joblib 
 app = Flask(__name__)
 
+
 # Load the model
 model = joblib.load('/home/mowli/Documents/ECG signal Classification/ECG-Signal-Classification/ecg_pred.pkl')
 
